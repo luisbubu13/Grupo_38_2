@@ -1,0 +1,40 @@
+html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Evita el scroll horizontal */
+    font-family: 'Poppins', sans-serif;
+}
+
+.limitador{
+    height: 0.9vh;
+    background-color: #800020;
+    border: 0.9vh solid rgb(255,174,0);
+}
+
+.nombre{
+    height: 14.5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.nombre img{
+    height: 13vh;
+}
+
+.menu{
+    height: 10vh;
+    background-color: #800020;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 2.7vh;
+    color: white;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}

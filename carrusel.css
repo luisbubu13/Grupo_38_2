@@ -1,0 +1,36 @@
+.portada {
+    width: 100%;
+    height: 78vh;
+    overflow: hidden; /* Oculta las imágenes que no están visibles */
+    position: relative;
+    background-color: bisque;
+    margin-bottom: 1vh;
+}
+
+.portada .imagenes {
+    display: flex;
+    width: 1100%; /* Depende de cuántas imágenes tengas */
+    height: 100%;
+    animation: mover 40s infinite; /* 9s para el ciclo completo */
+}
+
+.portada .imagenes img {
+    flex: 0 0 9.09%; /* Cada imagen ocupa 100% del carrusel */
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Animación del carrusel */
+@keyframes mover {
+    0%   { transform: translateX(0%); }
+    10%  { transform: translateX(-9%); }
+    20%  { transform: translateX(-18.2%); }
+    30%  { transform: translateX(-27.3%); }
+    40%  { transform: translateX(-36.6%); }
+    50%  { transform: translateX(-45.4%); }
+    60%  { transform: translateX(-54.3%); }
+    70%  { transform: translateX(-63.3%); }
+    80%  { transform: translateX(-72.6%); }
+    90%  { transform: translateX(-81.6%); }
+    100% { transform: translateX(-90.9%); }
+}
