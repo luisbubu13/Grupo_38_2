@@ -24,5 +24,12 @@ html{
 }
 
 .lol{
-    height: 150vh;
+    height: 80vh;
+}
+
+#edades{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 6vh;
 }

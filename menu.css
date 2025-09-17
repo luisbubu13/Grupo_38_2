@@ -1,0 +1,91 @@
+/* Menú principal */
+.menu {
+    height: 10vh;
+    background-color: #800020;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2.5vh;
+    color: white;
+    position: sticky; 
+    top: 0;          
+    z-index: 1000;
+}
+
+/* Links del menú */
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    position: relative;
+}
+
+/* Efecto hover */
+.menu a:hover {
+    background-color: #a83232;
+    border-radius: 5px;
+}
+
+/* Submenú vertical */
+.submenu {
+    position: relative;
+    cursor: pointer;
+}
+
+.submenu-contenido {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #800020;
+    min-width: 150px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.submenu-contenido a {
+    display: block;
+    padding: 8px 15px;
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+/* Mostrar submenú vertical */
+.submenu:hover .submenu-contenido {
+    display: flex;
+}
+
+/* Submenú lateral */
+.clanes {
+    position: relative;
+}
+
+.submenu-lateral {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%; /* aparece a la derecha */
+    background-color: #800020;
+    min-width: 150px;
+}
+
+.submenu-lateral a {
+    display: block;
+    padding: 8px 15px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Mostrar submenú lateral */
+.clanes:hover .submenu-lateral {
+    display: block;
+}
+
+/* Hover en submenús */
+.submenu-contenido a:hover,
+.submenu-lateral a:hover {
+    background-color: #a83232;
+    border-radius: 5px;
+}
