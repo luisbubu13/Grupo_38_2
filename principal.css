@@ -17,12 +17,48 @@ html{
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    font-size: 2.4vh;
 }
 
 .nombre img{
     height: 13vh;
 }
 
+.historia{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.historia,
+.preguntas{
+    font-size: 2.5vh;
+}
+
+.preguntas{
+    width: 80%;
+    margin-bottom: 5vh;
+}
+
+.preguntas details{
+    border-bottom: solid 0.1vh white;
+}
+
+.preguntas summary{
+    height: 6vh;
+    background-color: #800020;
+    color: white;
+    justify-content: center;
+    align-content: center;
+}
+
+.preguntas span{
+    font-weight: bold;
+}
+
+
 .lol{
-    height: 150vh;
+    height: 35vh;
 }

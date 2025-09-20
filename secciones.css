@@ -17,6 +17,7 @@ html{
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    font-size: 2.4vh;
 }
 
 .nombre img{
@@ -24,12 +25,12 @@ html{
 }
 
 .lol{
-    height: 80vh;
+    height: 35vh;
 }
 
 #edades{
     align-items: center;
     text-align: center;
     justify-content: center;
-    font-size: 6vh;
+    font-size: 2.5vh;
 }
